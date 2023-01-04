@@ -9,8 +9,8 @@ services:
     dns:
      - 127.0.0.1
     environment:
-      SAMBA_DOMAIN: kalishell
-      SAMBA_REALM: kalishell.local
+      SAMBA_DOMAIN: example
+      SAMBA_REALM: example.local
     volumes:
       - ./samba:/var/lib/samba        
     ports:
